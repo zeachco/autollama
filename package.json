@@ -1,0 +1,15 @@
+{
+  "name": "autollama",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ollama-node": "^0.1.28",
+    "winston": "^3.13.0"
+  }
+}
